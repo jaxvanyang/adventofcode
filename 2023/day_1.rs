@@ -22,8 +22,8 @@ fn parse(line: &str) -> u32 {
                     l = digit;
                 }
                 r = digit;
-            },
-            None => {},
+            }
+            None => {}
         }
     }
 
